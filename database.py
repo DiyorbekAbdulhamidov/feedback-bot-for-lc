@@ -125,8 +125,6 @@ def get_student_count() -> int:
     return get_conn().execute("SELECT COUNT(*) FROM students").fetchone()[0]
 
 
-# ==================== BAHOLASH ====================
-# 
 
 def add_feedback(guruh_id: int, baho: int, matn: str):
     conn = get_conn()
