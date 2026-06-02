@@ -134,6 +134,7 @@ def add_feedback(guruh_id: int, baho: int, matn: str):
         (guruh_id, sana, baho, matn)
     )
     conn.commit()
+# 
 
 
 def get_feedback_stats(guruh_id: int) -> dict:
